@@ -173,36 +173,6 @@ The result is printed when the simulation ends.
   - FreeGLUT
   - GLEW
 
-## Project Structure
-
-Recommended repository structure:
-
-```text
-AI-Army-Simulation/
-├── README.md
-├── .gitignore
-├── demo/
-│   └── ai-army-simulation-demo.mp4
-├── images/
-│   └── screenshot.png
-└── Graphics/
-    ├── Graphics.sln
-    └── Graphics/
-        ├── main.cpp
-        ├── Definitions.h
-        ├── Soldier.h
-        ├── Soldier.cpp
-        ├── Bullet.h
-        ├── Bullet.cpp
-        ├── Grenade.h
-        ├── Grenade.cpp
-        ├── freeglut.h
-        ├── freeglut.lib
-        ├── glew.h
-        ├── glew32.lib
-        └── ...
-```
-
 ## Main Files
 
 - `main.cpp` — initializes the map, creates the environment, places the armies, runs the simulation loop, draws the map, and manages the battle.
